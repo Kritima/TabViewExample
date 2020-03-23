@@ -23,7 +23,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="i7h-43-gGs"/>
+                    <tabBarItem key="tabBarItem" badgeValue="30" systemItem="contacts" id="i7h-43-gGs">
+                        <color key="badgeColor" red="0.96043461559999999" green="0.55515569450000002" blue="0.25084218380000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -89,7 +91,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lxG-GW-BsG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="jbh-48-kEz"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" badgeValue="0" id="jbh-48-kEz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ed0-8U-kBe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
