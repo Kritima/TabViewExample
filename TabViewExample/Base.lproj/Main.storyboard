@@ -45,7 +45,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="maE-rW-7aw"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Music" selectedImage="music.note" catalog="system" id="oec-Dw-Z6m"/>
+                    <tabBarItem key="tabBarItem" title="Music" image="music.note" catalog="system" id="oec-Dw-Z6m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rxc-Sd-800" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +59,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZA-a6-ATb">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Camera" translatesAutoresizingMaskIntoConstraints="NO" id="uZA-a6-ATb">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -67,13 +67,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="bcj-er-Yus"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" selectedImage="camera" catalog="system" id="i43-WA-2Rp"/>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera" catalog="system" id="i43-WA-2Rp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWi-XN-U5s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2643" y="1964"/>
         </scene>
-        <!--Maps-->
+        <!--Map-->
         <scene sceneID="N20-JK-KVk">
             <objects>
                 <viewController id="cKt-zz-fzY" customClass="FirstViewController" customModule="TabViewExample" customModuleProvider="target" sceneMemberID="viewController">
@@ -81,7 +81,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Maps" translatesAutoresizingMaskIntoConstraints="NO" id="Wrr-dR-lw3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Map" translatesAutoresizingMaskIntoConstraints="NO" id="Wrr-dR-lw3">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -89,7 +89,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lxG-GW-BsG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Maps" selectedImage="map" catalog="system" id="jbh-48-kEz"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="jbh-48-kEz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ed0-8U-kBe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -117,8 +117,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Camera" width="600" height="320"/>
         <image name="Contacts" width="699" height="466"/>
-        <image name="Maps" width="1100" height="837"/>
+        <image name="Map" width="512" height="512"/>
         <image name="Music" width="1200" height="630"/>
         <image name="camera" catalog="system" width="64" height="48"/>
         <image name="map" catalog="system" width="64" height="56"/>
