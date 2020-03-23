@@ -73,7 +73,7 @@
             </objects>
             <point key="canvasLocation" x="2643" y="1964"/>
         </scene>
-        <!--First View Controller-->
+        <!--Map-->
         <scene sceneID="N20-JK-KVk">
             <objects>
                 <viewController id="cKt-zz-fzY" customClass="FirstViewController" customModule="TabViewExample" customModuleProvider="target" sceneMemberID="viewController">
@@ -81,7 +81,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wrr-dR-lw3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pin " translatesAutoresizingMaskIntoConstraints="NO" id="Wrr-dR-lw3">
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -89,7 +89,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="lxG-GW-BsG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="jbh-48-kEz"/>
+                    <tabBarItem key="tabBarItem" title="Map" selectedImage="map" catalog="system" id="jbh-48-kEz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ed0-8U-kBe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -116,4 +116,8 @@
             <point key="canvasLocation" x="-325" y="1246"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="map" catalog="system" width="64" height="56"/>
+        <image name="pin " width="1100" height="837"/>
+    </resources>
 </document>
